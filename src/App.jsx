@@ -41,13 +41,12 @@ function App() {
       }
     }
   }
-  console.log(click)
 
   return (
     <>    
       <Particles init={particleInit} options={{ preset: "hyperspace" }}/>
       <div className="flex flex-col justify-center items-center min-h-screen gap-4">
-        <span className="text-white text-4xl font-bold z-50">
+        <span className="text-white lg:text-4xl text-xl font-bold z-50">
           <Typewriter words={message} loop={false} cursor cursorStyle={"✨"}/>
         </span>
         <div className="z-50 text-white">
